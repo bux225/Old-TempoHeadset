@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D13F407ABA05A5285395FE5 /* Pods_TempoHeadset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9D855913F4D3815A344979 /* Pods_TempoHeadset.framework */; };
+		42A43EFC0DBE6FF24A651711 /* Pods_TempoHeadsetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC5215CADAD95C8409230BC /* Pods_TempoHeadsetTests.framework */; };
+		85D520C47CD7892CC97C6A97 /* Pods_TempoHeadsetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD668852ED1BE3C33E14136 /* Pods_TempoHeadsetUITests.framework */; };
+		E90039A221EF8FA500E8072B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90039A121EF8FA500E8072B /* Room.swift */; };
 		E9251D9921ED68D300579876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251D9821ED68D300579876 /* AppDelegate.swift */; };
-		E9251D9B21ED68D300579876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251D9A21ED68D300579876 /* ViewController.swift */; };
 		E9251D9E21ED68D300579876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9251D9C21ED68D300579876 /* Main.storyboard */; };
 		E9251DA021ED68D600579876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9251D9F21ED68D600579876 /* Assets.xcassets */; };
 		E9251DA321ED68D600579876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9251DA121ED68D600579876 /* LaunchScreen.storyboard */; };
 		E9251DAE21ED68D700579876 /* TempoHeadsetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251DAD21ED68D700579876 /* TempoHeadsetTests.swift */; };
 		E9251DB921ED68D700579876 /* TempoHeadsetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251DB821ED68D700579876 /* TempoHeadsetUITests.swift */; };
+		E9BC70BC21ED6EAB001B42EA /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC70BB21ED6EAB001B42EA /* Channel.swift */; };
+		E9BC70BE21ED700C001B42EA /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC70BD21ED700C001B42EA /* ChannelTableViewController.swift */; };
+		E9BC70C421ED7635001B42EA /* OpenTokController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC70C321ED7635001B42EA /* OpenTokController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BC5215CADAD95C8409230BC /* Pods_TempoHeadsetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempoHeadsetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F07E29FD641D80E8DE14821 /* Pods-TempoHeadsetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetUITests/Pods-TempoHeadsetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5054079B6EB7AAB55CD3BA1D /* Pods-TempoHeadsetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetUITests/Pods-TempoHeadsetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52394CFE3018C6DECD41632C /* Pods-TempoHeadsetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetTests/Pods-TempoHeadsetTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CD668852ED1BE3C33E14136 /* Pods_TempoHeadsetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempoHeadsetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1702967CE9716D9408C86B /* Pods-TempoHeadset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadset.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset.release.xcconfig"; sourceTree = "<group>"; };
+		D0812879433B310C769AB8E4 /* Pods-TempoHeadsetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetTests/Pods-TempoHeadsetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9597A8303A3D8F2FCCE7CB /* Pods-TempoHeadset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadset.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset.debug.xcconfig"; sourceTree = "<group>"; };
+		E90039A121EF8FA500E8072B /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		E9251D9521ED68D300579876 /* TempoHeadset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoHeadset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9251D9821ED68D300579876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9251D9A21ED68D300579876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9251D9D21ED68D300579876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9251D9F21ED68D600579876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9251DA221ED68D600579876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,11 @@
 		E9251DB421ED68D700579876 /* TempoHeadsetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoHeadsetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9251DB821ED68D700579876 /* TempoHeadsetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoHeadsetUITests.swift; sourceTree = "<group>"; };
 		E9251DBA21ED68D700579876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9BC70B921ED6BE4001B42EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9BC70BB21ED6EAB001B42EA /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		E9BC70BD21ED700C001B42EA /* ChannelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
+		E9BC70C321ED7635001B42EA /* OpenTokController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTokController.swift; sourceTree = "<group>"; };
+		FC9D855913F4D3815A344979 /* Pods_TempoHeadset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempoHeadset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D13F407ABA05A5285395FE5 /* Pods_TempoHeadset.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A43EFC0DBE6FF24A651711 /* Pods_TempoHeadsetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D520C47CD7892CC97C6A97 /* Pods_TempoHeadsetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6B2BA9C28A14F2564C82ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC9D855913F4D3815A344979 /* Pods_TempoHeadset.framework */,
+				1BC5215CADAD95C8409230BC /* Pods_TempoHeadsetTests.framework */,
+				5CD668852ED1BE3C33E14136 /* Pods_TempoHeadsetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9251D8C21ED68D300579876 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				E9251DAC21ED68D700579876 /* TempoHeadsetTests */,
 				E9251DB721ED68D700579876 /* TempoHeadsetUITests */,
 				E9251D9621ED68D300579876 /* Products */,
+				FC5F2D5815813379723DC27F /* Pods */,
+				D6B2BA9C28A14F2564C82ECE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +131,13 @@
 		E9251D9721ED68D300579876 /* TempoHeadset */ = {
 			isa = PBXGroup;
 			children = (
-				E9251D9821ED68D300579876 /* AppDelegate.swift */,
-				E9251D9A21ED68D300579876 /* ViewController.swift */,
-				E9251D9C21ED68D300579876 /* Main.storyboard */,
-				E9251D9F21ED68D600579876 /* Assets.xcassets */,
-				E9251DA121ED68D600579876 /* LaunchScreen.storyboard */,
+				E9BC70BA21ED6E98001B42EA /* Models */,
+				E9BC70BF21ED715B001B42EA /* Controllers */,
+				E9BC70C021ED7206001B42EA /* Views */,
 				E9251DA421ED68D600579876 /* Info.plist */,
+				E9251D9821ED68D300579876 /* AppDelegate.swift */,
+				E9251D9F21ED68D600579876 /* Assets.xcassets */,
+				E9BC70B921ED6BE4001B42EA /* README.md */,
 			);
 			path = TempoHeadset;
 			sourceTree = "<group>";
@@ -125,6 +160,46 @@
 			path = TempoHeadsetUITests;
 			sourceTree = "<group>";
 		};
+		E9BC70BA21ED6E98001B42EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9BC70BB21ED6EAB001B42EA /* Channel.swift */,
+				E90039A121EF8FA500E8072B /* Room.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9BC70BF21ED715B001B42EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9BC70BD21ED700C001B42EA /* ChannelTableViewController.swift */,
+				E9BC70C321ED7635001B42EA /* OpenTokController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E9BC70C021ED7206001B42EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9251D9C21ED68D300579876 /* Main.storyboard */,
+				E9251DA121ED68D600579876 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC5F2D5815813379723DC27F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE9597A8303A3D8F2FCCE7CB /* Pods-TempoHeadset.debug.xcconfig */,
+				9B1702967CE9716D9408C86B /* Pods-TempoHeadset.release.xcconfig */,
+				D0812879433B310C769AB8E4 /* Pods-TempoHeadsetTests.debug.xcconfig */,
+				52394CFE3018C6DECD41632C /* Pods-TempoHeadsetTests.release.xcconfig */,
+				5054079B6EB7AAB55CD3BA1D /* Pods-TempoHeadsetUITests.debug.xcconfig */,
+				2F07E29FD641D80E8DE14821 /* Pods-TempoHeadsetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9251DBD21ED68D700579876 /* Build configuration list for PBXNativeTarget "TempoHeadset" */;
 			buildPhases = (
+				CD33EFC7037BCB6AF50B84F5 /* [CP] Check Pods Manifest.lock */,
 				E9251D9121ED68D300579876 /* Sources */,
 				E9251D9221ED68D300579876 /* Frameworks */,
 				E9251D9321ED68D300579876 /* Resources */,
+				A78B1EA7CD2F65A67FED54CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9251DC021ED68D700579876 /* Build configuration list for PBXNativeTarget "TempoHeadsetTests" */;
 			buildPhases = (
+				2138A913C5B316821E73F0F7 /* [CP] Check Pods Manifest.lock */,
 				E9251DA521ED68D700579876 /* Sources */,
 				E9251DA621ED68D700579876 /* Frameworks */,
 				E9251DA721ED68D700579876 /* Resources */,
@@ -167,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9251DC321ED68D700579876 /* Build configuration list for PBXNativeTarget "TempoHeadsetUITests" */;
 			buildPhases = (
+				1D497836E891678D64179781 /* [CP] Check Pods Manifest.lock */,
 				E9251DB021ED68D700579876 /* Sources */,
 				E9251DB121ED68D700579876 /* Frameworks */,
 				E9251DB221ED68D700579876 /* Resources */,
@@ -251,12 +330,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D497836E891678D64179781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempoHeadsetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2138A913C5B316821E73F0F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempoHeadsetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A78B1EA7CD2F65A67FED54CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD33EFC7037BCB6AF50B84F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempoHeadset-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9251D9121ED68D300579876 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9251D9B21ED68D300579876 /* ViewController.swift in Sources */,
+				E9BC70BC21ED6EAB001B42EA /* Channel.swift in Sources */,
+				E90039A221EF8FA500E8072B /* Room.swift in Sources */,
+				E9BC70BE21ED700C001B42EA /* ChannelTableViewController.swift in Sources */,
+				E9BC70C421ED7635001B42EA /* OpenTokController.swift in Sources */,
 				E9251D9921ED68D300579876 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +603,7 @@
 		};
 		E9251DBE21ED68D700579876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9597A8303A3D8F2FCCE7CB /* Pods-TempoHeadset.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +622,7 @@
 		};
 		E9251DBF21ED68D700579876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1702967CE9716D9408C86B /* Pods-TempoHeadset.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +641,7 @@
 		};
 		E9251DC121ED68D700579876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0812879433B310C769AB8E4 /* Pods-TempoHeadsetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +663,7 @@
 		};
 		E9251DC221ED68D700579876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52394CFE3018C6DECD41632C /* Pods-TempoHeadsetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +685,7 @@
 		};
 		E9251DC421ED68D700579876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5054079B6EB7AAB55CD3BA1D /* Pods-TempoHeadsetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +706,7 @@
 		};
 		E9251DC521ED68D700579876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F07E29FD641D80E8DE14821 /* Pods-TempoHeadsetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
