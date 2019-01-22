@@ -11,15 +11,16 @@
 		42A43EFC0DBE6FF24A651711 /* Pods_TempoHeadsetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC5215CADAD95C8409230BC /* Pods_TempoHeadsetTests.framework */; };
 		85D520C47CD7892CC97C6A97 /* Pods_TempoHeadsetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD668852ED1BE3C33E14136 /* Pods_TempoHeadsetUITests.framework */; };
 		E90039A221EF8FA500E8072B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90039A121EF8FA500E8072B /* Room.swift */; };
+		E909CE7221F6281600972B7C /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909CE7121F6281600972B7C /* UsersTableViewController.swift */; };
+		E915D10721F2DC920007468F /* legacy_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E915D10621F2DC920007468F /* legacy_icon.jpg */; };
 		E9251D9921ED68D300579876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251D9821ED68D300579876 /* AppDelegate.swift */; };
 		E9251D9E21ED68D300579876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9251D9C21ED68D300579876 /* Main.storyboard */; };
 		E9251DA021ED68D600579876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9251D9F21ED68D600579876 /* Assets.xcassets */; };
 		E9251DA321ED68D600579876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9251DA121ED68D600579876 /* LaunchScreen.storyboard */; };
 		E9251DAE21ED68D700579876 /* TempoHeadsetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251DAD21ED68D700579876 /* TempoHeadsetTests.swift */; };
 		E9251DB921ED68D700579876 /* TempoHeadsetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9251DB821ED68D700579876 /* TempoHeadsetUITests.swift */; };
-		E9BC70BC21ED6EAB001B42EA /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC70BB21ED6EAB001B42EA /* Channel.swift */; };
-		E9BC70BE21ED700C001B42EA /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC70BD21ED700C001B42EA /* ChannelTableViewController.swift */; };
 		E9BC70C421ED7635001B42EA /* OpenTokController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BC70C321ED7635001B42EA /* OpenTokController.swift */; };
+		E9BD771B21F2ED2900355C47 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD771A21F2ED2900355C47 /* ChannelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		D0812879433B310C769AB8E4 /* Pods-TempoHeadsetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetTests/Pods-TempoHeadsetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE9597A8303A3D8F2FCCE7CB /* Pods-TempoHeadset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadset.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset.debug.xcconfig"; sourceTree = "<group>"; };
 		E90039A121EF8FA500E8072B /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		E909CE7121F6281600972B7C /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		E915D10621F2DC920007468F /* legacy_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = legacy_icon.jpg; sourceTree = SOURCE_ROOT; };
 		E9251D9521ED68D300579876 /* TempoHeadset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoHeadset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9251D9821ED68D300579876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9251D9D21ED68D300579876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,9 +65,8 @@
 		E9251DB821ED68D700579876 /* TempoHeadsetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoHeadsetUITests.swift; sourceTree = "<group>"; };
 		E9251DBA21ED68D700579876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9BC70B921ED6BE4001B42EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E9BC70BB21ED6EAB001B42EA /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
-		E9BC70BD21ED700C001B42EA /* ChannelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
 		E9BC70C321ED7635001B42EA /* OpenTokController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTokController.swift; sourceTree = "<group>"; };
+		E9BD771A21F2ED2900355C47 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		FC9D855913F4D3815A344979 /* Pods_TempoHeadset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempoHeadset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 				E9BC70BF21ED715B001B42EA /* Controllers */,
 				E9BC70C021ED7206001B42EA /* Views */,
 				E9251DA421ED68D600579876 /* Info.plist */,
+				E915D10621F2DC920007468F /* legacy_icon.jpg */,
 				E9251D9821ED68D300579876 /* AppDelegate.swift */,
 				E9251D9F21ED68D600579876 /* Assets.xcassets */,
 				E9BC70B921ED6BE4001B42EA /* README.md */,
@@ -163,7 +166,6 @@
 		E9BC70BA21ED6E98001B42EA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E9BC70BB21ED6EAB001B42EA /* Channel.swift */,
 				E90039A121EF8FA500E8072B /* Room.swift */,
 			);
 			path = Models;
@@ -172,8 +174,9 @@
 		E9BC70BF21ED715B001B42EA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E9BC70BD21ED700C001B42EA /* ChannelTableViewController.swift */,
 				E9BC70C321ED7635001B42EA /* OpenTokController.swift */,
+				E9BD771A21F2ED2900355C47 /* ChannelViewController.swift */,
+				E909CE7121F6281600972B7C /* UsersTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				E9251DA321ED68D600579876 /* LaunchScreen.storyboard in Resources */,
 				E9251DA021ED68D600579876 /* Assets.xcassets in Resources */,
 				E9251D9E21ED68D300579876 /* Main.storyboard in Resources */,
+				E915D10721F2DC920007468F /* legacy_icon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +430,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9BC70BC21ED6EAB001B42EA /* Channel.swift in Sources */,
 				E90039A221EF8FA500E8072B /* Room.swift in Sources */,
-				E9BC70BE21ED700C001B42EA /* ChannelTableViewController.swift in Sources */,
 				E9BC70C421ED7635001B42EA /* OpenTokController.swift in Sources */,
+				E9BD771B21F2ED2900355C47 /* ChannelViewController.swift in Sources */,
+				E909CE7221F6281600972B7C /* UsersTableViewController.swift in Sources */,
 				E9251D9921ED68D300579876 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,7 +620,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadset;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -635,7 +639,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadset;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
